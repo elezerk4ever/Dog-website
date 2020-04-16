@@ -1,0 +1,79 @@
+body,html{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+    color: #A08478;
+}
+header h1{
+    font-size: 10vh;
+    margin: 0;
+}
+header p{
+    padding:0px;
+    margin: 0;
+    margin-bottom: 1em;
+}
+nav{
+   background: #A08478;
+   max-width: 800px;
+   margin: auto;
+   margin-bottom: 0px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+nav ul li {
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    display: block;
+    padding: 0.5em;
+}
+main{
+    max-width: 790px;
+    margin: auto;
+    background: rgb(233, 230, 230);
+    padding: 0.25em;
+    margin-top: 0px;
+    position: relative;
+    top: -1em;
+    margin-bottom: 0px;
+}
+main img{
+    width: 100%;
+}
+main p{
+    font-size: 19px;
+}
+main h2{
+    font-family: sans-serif;
+}
+h2,p{
+    padding:0px 2em;
+}
+small{
+    font-family: sans-serif;
+    color: #777;
+}
+footer{
+    max-width: 800px;
+    background: #A08478;margin: auto;
+    text-align: center;
+}
+footer small{
+    color: rgb(246, 242, 242);
+
+}
+article p, article h2 {
+    color: rgb(98, 72, 60);
+}
